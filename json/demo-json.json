@@ -1,0 +1,50 @@
+{ "restaurants" : 
+	[
+		{
+            "id":1,
+			"name" : "The Black Pearl",
+			"cuisine" : "North Indian, European, Mediterranean",
+			"address" : " 1st A Cross Road, Jyothi Nivas College Road, 5th Block, Koramangala, Bangalore",
+			"costForTwo":2,
+			"location":"Koramangala",
+			"rating":4,
+			"numberOfVotes":32
+		},
+		{
+            "id":2,
+			"name" : "Punjabi by Nature",
+			"cuisine" : "North Indian",
+			"address" : "6, Krishna Nagar, Industrial & Residential Area, Hosur Road, Near Forum Mall, Koramangala, Bangalore",
+			"costForTwo":2,
+			"location":"Koramangala",
+			"rating":5,
+			"numberOfVotes":21
+		},
+		{
+            "id":3,
+			"name" : "Pratap The Dhaba",
+			"cuisine" : "North Indian, European, Mediterranean",
+			"address" : " Link Plaza, Next To Punjab & Maharashtra Bank, Oshiwara, Andheri West, Mumbai",
+			"costForTwo":29,
+			"location":"mumbai",
+			"rating":5,
+			"numberOfVotes":12
+		},
+		{
+            "id":4,
+			"name" : "13 DHABA",
+			"cuisine" : "North Indian",
+			"address" : "1-72/3A, Andhra Bank Lane, Near H.P. Petrol Pump, Gachibowli, Hyderabad",
+			"costForTwo":2,
+			"location":"panjagutta",
+			"rating":5,
+			"numberOfVotes":21
+		}
+	],
+   "localities" : {
+	"Bangalore":["Koramangala","Marathahalli","WhiteField"],
+	"Hyderabad":["Jubilee Hills","Banjara Hills","Gachibowli"],
+	"Mumbai":["Western Suburbs","Central Mumbai","South Mumbai"]
+   
+   }
+}

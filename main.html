@@ -1,0 +1,13 @@
+ <div class="row">
+          <div class="col-xs-6">
+            <div class="input-group">
+              <input type="text" class="form-control" ng-model="searchText" placeholder="Search for...">
+            </div><!-- /input-group -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+
+<div class="" ng-repeat="res in restarents | filter:searchText">
+<div class="navbar navbar-default">
+    <a ng-href="#/hotel/{{res.id}}"><h4>{{res.name}}</h4></a>
+  </div>
+</div>
